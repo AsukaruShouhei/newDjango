@@ -8,8 +8,7 @@ def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
 def sample(request):
-    conte = os.path.join(BASE_DIR, 'mysite/templates')
-    i = {'conte' : conte}
+    i = {'conte': BASE_DIR}
     return render(request, 'mysite/index.html', i)
 
 def chat(request):
