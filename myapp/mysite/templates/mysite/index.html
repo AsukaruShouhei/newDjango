@@ -7,5 +7,19 @@
         {{ conte }}
 
     </div>
+{% load staticfiles %}
+<img src="{% static 'mysite/images/python.png' %}" alt="My image">
+    <svg id="chart" width="300" height="225" style="background-color: #eee;">
+        <circle r="15" cx="100" cy="50"></circle>
+        <path d="M00 00A430 540 0 0 1 180 180"></path>
+
+    </svg>
+    <div class="content">
+        <span class="">
+            こんにちは。私たちは、佐賀県神埼市でAIやIoTの開発を行っています。<br>
+            もちろん、このサイトのようなWEBサイトの制作もしております。何かありましたら、まずは相談からでも大丈夫ですので、お気軽にご相談ください。<br>
+            なお、このサイトはPythonのDjangoで書かれています。
+        </span>
+    </div>
 {% endblock %}
 
