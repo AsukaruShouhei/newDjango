@@ -19,6 +19,6 @@ from django.urls import include, path
 
 
 urlpatterns = [
-    path('initium/', include('mysite.urls')),
+    path('/', include('mysite.urls')), # top
     path('admin/', admin.site.urls),
 ]
